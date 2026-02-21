@@ -31,20 +31,20 @@ public class Invoice {
         }else{
             this.pricePerItem=pricePerItem;
         }
-        }
-        public String getPartNumber(){
+    }
+    public String getPartNumber(){
         return partNumber;
-        }
-        public String getPartDescription(){
+    }
+    public String getPartDescription(){
         return partDescription;
-        }
-        public int getQuantity(){
+    }
+    public int getQuantity(){
         return quantity;
-        }
-        public double getPricePerItem(){
+    }
+    public double getPricePerItem(){
         return  pricePerItem;
-        }
-        public double calculateInvoice(){
+    }
+    public double calculateInvoice(){
         return pricePerItem*quantity;
-        }
+    }
 }
